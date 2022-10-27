@@ -21,4 +21,3 @@ def main(a,b,c):
             answer = c
     return answer
 
-print(main(4,5,6))
