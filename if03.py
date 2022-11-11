@@ -8,4 +8,15 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    large = a
+    if large < b:
+        large = b
+    if large < c:
+        large = c
+    small = a
+    if small > b:
+        small = b
+    if small > c:
+        small = c
+        
+    return large, small
